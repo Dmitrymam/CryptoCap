@@ -2,6 +2,7 @@
 @import "/fonts/stylesheet.css";
 @import "./global";
 @import "./components/header.scss";
+@import "./components/market.scss";
 
 body {
   font-family: var(--font-family);
@@ -11,7 +12,8 @@ body {
 
 .inner{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -32,6 +34,4 @@ color: var(--font-color-pure-white);
 .button--modified-1{
 padding: 16px 51px;
 width: 190px;
-
-
 }
