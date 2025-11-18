@@ -1,0 +1,37 @@
+@import "./base";
+@import "/fonts/stylesheet.css";
+@import "./global";
+@import "./components/header.scss";
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--high-fidelity-color-main-background);
+
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  max-width: 1290px;
+  padding: 0 15px;
+}
+
+.button{
+font-family: var(--second-family);
+border-radius: 10px;
+padding: 13px 24px;
+width: 104px;
+padding: 13px 30px;
+background: var(--high-fidelity-color-primary-color);
+color: var(--font-color-pure-white);
+}
+
+.button--modified-1{
+padding: 16px 51px;
+width: 190px;
+
+
+}
