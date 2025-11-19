@@ -1,0 +1,78 @@
+.amazing {
+  margin-bottom: 167px;
+  
+  &__title {
+    color: var(--font-color-light-title);
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  &__desc {
+    font-family: var(--font-family);
+    color: var(--font-color-light-subtitle);
+    margin-bottom: 75px;
+    text-align: center;
+  }
+
+  &__cards {
+    display: flex;
+    margin-bottom: 127px;
+    gap: 24px;
+  }
+  &__card {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    padding: 30px 30px 30px 28px;
+    width: 296px;
+    height: 343px;
+    backdrop-filter: blur(200px);
+    background: var(--high-fidelity-color-card-background);
+
+    &-img {
+      margin-bottom: 27px;
+    }
+    &-title {
+      color: var(--font-color-light-title);
+      margin-bottom: 12px;
+    }
+
+    &-desc {
+      font-family: var(--font-family);
+      color: var(--font-color-light-subtitle);
+      margin-bottom: 38px;
+    }
+
+    &-button {
+      color: var(--high-fidelity-color-primary-color);
+    }
+
+    &-button svg {
+      margin-left: 10px;
+    }
+  }
+
+  &__article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 20px 60px;
+
+    &-left {
+      max-width: 536px;
+    }
+    &-title {
+      color: var(--font-color-light-title);
+      margin-bottom: 12px;
+    }
+
+    &-desc {
+      font-family: var(--font-family);
+      color: var(--font-color-light-subtitle);
+    }
+
+    &-button {
+    }
+  }
+}

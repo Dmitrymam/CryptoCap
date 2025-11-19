@@ -3,6 +3,7 @@
 @import "./global";
 @import "./components/header.scss";
 @import "./components/market.scss";
+@import "./components//amazing.scss";
 
 body {
   font-family: var(--font-family);
@@ -26,12 +27,17 @@ font-family: var(--second-family);
 border-radius: 10px;
 padding: 13px 24px;
 width: 104px;
-padding: 13px 30px;
 background: var(--high-fidelity-color-primary-color);
 color: var(--font-color-pure-white);
+line-height: 150%;
 }
 
 .button--modified-1{
 padding: 16px 51px;
 width: 190px;
+}
+
+.button--modified-2{
+padding: 16px 24px;
+width: 207px;
 }
