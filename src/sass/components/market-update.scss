@@ -1,0 +1,13 @@
+.market-update {
+    margin-bottom: 130px;
+  &__title {
+    color: var(--font-color-light-title);
+    margin-bottom: 31px;
+  }
+
+  &__desc {
+    font-family: var(--font-family);
+    color: var(--font-color-light-subtitle);
+    margin-bottom: 22px;
+  }
+}
