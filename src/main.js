@@ -1,3 +1,3 @@
-import "./sass/main.scss";
+import "./main.css";
 import "./js/search";
 import "./js/tabToggle";
