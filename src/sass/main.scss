@@ -4,11 +4,8 @@
 @import "./components/header.scss";
 @import "./components/market.scss";
 @import "./components/amazing.scss";
-<<<<<<< HEAD
 @import "./components/market-update.scss";
-=======
 @import "./components/get-started.scss";
->>>>>>> feature
 
 body {
   font-family: var(--font-family);
@@ -55,7 +52,7 @@ body {
   display: none;
 }
 
-.button--modified-4{
+.button--modified-4 {
   padding: 13px 24px;
   width: 190px;
 }
