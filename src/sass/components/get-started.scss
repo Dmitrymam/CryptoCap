@@ -6,8 +6,7 @@
     justify-content: space-between;
     align-items: start;
   }
-  &__left {
-  }
+
   &__title {
     color: var(--font-color-light-title);
     margin-bottom: 18px;
@@ -32,10 +31,7 @@
     border-radius: 18px;
     margin-bottom: 23px;
 
-    &-img {
-    }
-    &-text {
-    }
+
     &-title {
       color: var(--font-color-light-title);
       margin-bottom: 6px;
