@@ -1,0 +1,87 @@
+.cryptocurrency {
+  margin-bottom: 228px;
+  &__title {
+    color: var(--font-color-light-title);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    font-family: var(--font-family);
+    color: var(--font-color-light-subtitle);
+    text-align: center;
+    margin-bottom: 66px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 60px;
+    gap: 43px 26px;
+  }
+  &__card-big {
+    width: 618px;
+    padding: 220px 44px 31px 30px;
+    background-image: url("/image/cryptocurrency/risks.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    &-title {
+      color: var(--font-color-pure-white);
+      margin-bottom: 22px;
+    }
+    &-tag {
+      text-transform: uppercase;
+      font-family: var(--font-family);
+      color: var(--font-color-light-subtitle);
+      border-radius: 4px;
+      padding: 4px 8px;
+      background: rgba(255, 255, 255, 0.07);
+    }
+  }
+
+  &__card {
+    width: 296px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    background: var(--high-fidelity-color-card-background);
+
+    &-text-inner {
+      padding: 20px;
+    }
+    &-img {
+    }
+
+    &-img img {
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+    }
+    &-tag {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 183%;
+      color: var(--font-color-light-subtitle);
+      margin-bottom: 13px;
+    }
+    &-title {
+      color: var(--font-color-pure-white);
+      margin-bottom: 13px;
+    }
+
+    &-desc {
+      font-family: var(--font-family);
+      color: var(--font-color-light-subtitle);
+    }
+  }
+
+  &__button-see {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    color: var(--high-fidelity-color-primary-color);
+  }
+}
